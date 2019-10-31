@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "better-styles",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://player.live365.com/*"],
+      "css": ["wdwntunes.css"]
+    },
+    {
+      "matches": ["https://www.dparkradio.com/*"],
+      "css": ["dparkradio.css"]
+    }
+  ]
+}
